@@ -25,6 +25,10 @@ class GitLabeAppTests: XCTestCase {
         XCTAssert(1==1)
     }
     
+    func testExample2() {
+        XCTAssert(2==2)
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
