@@ -1,0 +1,12 @@
+stages:
+  - build
+
+build_project:
+  stage: build
+  script:
+    - xcodebuild clean -project GitLabeApp.xcodeproj -scheme GitLabeApp | xcpretty
+    - xcodebuild test -project GitLabeApp.xcodeproj -scheme GitLabeApp -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.2' | xcpretty -s
+  tags:
+    - ios_11
+    - xcode_9-2
+    - osx_10-12 
