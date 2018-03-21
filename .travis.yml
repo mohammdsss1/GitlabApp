@@ -4,5 +4,5 @@ xcode_scheme: GitLabeApp
 osx_image: xcode9.2
 
 script:
-- fastlane tests
-    #- xcodebuild clean test -project GitLabeApp.xcodeproj -scheme GitLabeAppTests -destination "platform=iOS Simulator,name=iPhone 6s,OS=11.2" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
+    - xcodebuild clean -project GitLabeApp.xcodeproj -scheme GitLabeApp | xcpretty
+    - xcodebuild test -project GitLabeApp.xcodeproj -scheme GitLabeApp -destination 'platform=iOS Simulator,name=iPhone 6s,OS=11.2' | xcpretty -s
