@@ -1,3 +1,5 @@
 language: swift
 xcode_project: GitLabeApp.xcodeproj # path to your xcodeproj folder
 xcode_scheme: GitLabeApp
+osx_image: xcode9.2
+script: - xcodebuild test -project GitLabeApp.xcodeproj -scheme GitLabeApp -destination 'platform=iOS Simulator,name=iPhone 6s,OS=11.2' | xcpretty -s
