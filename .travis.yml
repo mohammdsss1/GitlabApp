@@ -1,6 +1,6 @@
 language: objective-c
 xcode_project: GitLabeApp.xcodeproj # path to your xcodeproj folder
-xcode_scheme: GitLabeAppTests
+xcode_scheme: GitLabeApp
 osx_image: xcode9.2
 
 script:
