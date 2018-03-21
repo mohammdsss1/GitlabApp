@@ -22,7 +22,7 @@ class GitLabeAppTests: XCTestCase {
     }
     
     func testExample() {
-        XCTAssert(1==1)
+        XCTAssert(1==1) //
     }
     
     func testExample2() {
