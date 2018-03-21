@@ -33,6 +33,10 @@ class GitLabeAppTests: XCTestCase {
         XCTAssert(true)
     }
     
+    func testAnas() {
+        XCTAssert("Anas".count == 4)
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
