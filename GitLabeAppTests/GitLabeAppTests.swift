@@ -34,7 +34,7 @@ class GitLabeAppTests: XCTestCase {
     }
     
     func testAnas() {
-        XCTAssert("Anas".count == 4)
+        XCTAssert("Anas".count == 4) //
     }
     
     func testPerformanceExample() {
