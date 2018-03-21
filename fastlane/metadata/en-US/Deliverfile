@@ -1,0 +1,5 @@
+languages(['en-US'])
+
+release_notes({
+  'default' => "You can do multiple payments using cash, cards or any other payment."
+})

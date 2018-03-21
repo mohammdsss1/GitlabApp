@@ -1,0 +1,6 @@
+
+lane :tests do
+  run_tests(project: 'GitLabeApp.xcodeproj',
+            devices: ["iPhone 6s"],
+            scheme: 'GitLabeApp')
+end
