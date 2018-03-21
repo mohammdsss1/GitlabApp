@@ -30,7 +30,7 @@ class GitLabeAppTests: XCTestCase {
     }
     
     func testExample3() {
-        XCTAssert(true)
+        XCTAssert(false)
     }
     
     func testAnas() {
