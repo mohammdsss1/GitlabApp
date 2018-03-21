@@ -5,4 +5,4 @@ osx_image: xcode9.2
 
 script:
     - xcodebuild clean -project GitLabeApp.xcodeproj -scheme GitLabeApp | xcpretty
-    - xcodebuild test -project GitLabeApp.xcodeproj -scheme GitLabeApp -destination 'platform=iOS Simulator,name=iPhone 6s,OS=11.2' | xcpretty -s
+    - xcodebuild test -project GitLabeApp.xcodeproj -scheme GitLabeAppTests -destination 'platform=iOS Simulator,name=iPhone 6s,OS=11.2' | xcpretty -s
